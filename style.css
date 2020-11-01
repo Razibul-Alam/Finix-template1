@@ -386,3 +386,65 @@ text-align: center;
     justify-content: center;
     
 }
+
+
+/*responsive css start*/
+@media(max-width:570px){
+    .common-h6 {
+        color: #e73c3e;
+        margin-top: 100px;
+      
+        }
+        .b-social {
+           
+            margin-top: 351px;
+            top: 50px;
+          
+            }
+            .about {
+                background-color: #e5eef7;
+                margin-top: 100px;
+                }
+                .about-photo span img {
+                    max-width: 60%;
+                    }
+                .client span img{
+                    max-width: 70%;
+                }
+                .header-btn a {
+                    background-color: #e73c3e;
+                   
+                    font-size: 10px;
+                    padding: 10px;
+                    color: whitesmoke;
+                    margin-bottom: 30px;
+                    }
+                    .banner h2 {
+                        font-size: 25px;
+                        font-weight: 500;
+                        margin: 20px 0px;
+                         color: red;
+                         
+                        }
+                        .banner p{
+                            
+                           font-size: 16px;
+                             color: red;
+                             
+                            }
+                        
+.banner{
+    background-image: url('main-banner2.jpg');
+ background-size: cover;
+ background-position: right;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ 
+   
+}
+.value-img{
+   margin-bottom: 30px;
+    }
+    
+
+}
